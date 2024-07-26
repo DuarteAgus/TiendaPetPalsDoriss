@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mascotas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body id="bod">
+
+<header>
+    <div>
+        <h1 class="title"><img src="img/logo3.png" alt="">Tienda de mascotas</h1>
+    </div>
+</header>
+
+<nav class="nav">
+    <div class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="productos.html">Productos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="registro.html">Registrarse</a>
+        <button id="botonModoNoche" onclick="CambiarModo()"><img src="" id="iconoNoche" alt="">Modo noche</button>
+    </div>
+</nav>
+
+<section class="peluqueria">
+    <h2>Peluquería Canina</h2>
+    <div class="video-container">
+        <video controls autoplay>
+            <source src="img/video.mp4" type="video/mp4">
+            <!-- Añade más sources para formatos alternativos -->
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+<main>
+    <div class="contenedor">
+        <!-- Primer bloque -->
+        <div class="bloque">
+        <h2>Corte y baño completo</h2>
+        <p>incluye baño con shampoo (segun cada tipo de pelo), secado, corte a maquina y/ tijera, peinado, limpieza de oidos y corte de uñas.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+        
+        <!-- Segundo bloque -->
+    <div class="bloque">
+        <h2>Corte y baño sanitario</h2>
+        <p>Baño con productos que previenen la presencia de pulgas, piojos y garrapatas.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+        
+        <!-- Tercer bloque -->
+    <div class="bloque">
+        <h2>Corte de uñas</h2>
+        <p>Previene heridas, infecciones, por rotura de uñas y mantiene suave las patitas de tus mascotas.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+        
+        <!-- Cuarto bloque -->
+    <div class="bloque">
+        <h2>Baño y corte completo</h2>
+        <p>Incluye baño con shampoo, secado, peinado, limpieza de oidos y corte de uñas.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+        
+        <!-- Quinto bloque -->
+    <div class="bloque">
+        <h2>Baño hipoalergenico</h2>
+        <p>Para mascotas con piel delicada. Incluye baño con shampoo hipoalergenico, secado y peinado.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+        
+        <!-- Sexto bloque -->
+    <div class="bloque">
+        <h2>Limpieza de lagrimas</h2>
+        <p>Limpiamos la oxidacion que se produce en los pelos alrededor de los lagrimales de determinadas razas.</p>
+        <button class="btn-add-to-cart">Ver más</button>
+    </div>
+    </div>
+</main>
+</body>
+</html>

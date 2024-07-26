@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <body id="bod">
+            <header>
+                <div>
+                 <img width="200" height="200"src="img/logo.png" alt="">
+                </div>
+            </header>
+            <nav class="nav">
+                <div class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="carrito.html">Carrito</a>
+                    <a href="registro.html">Registrarse</a>
+                    <button id="botonModoNoche" onclick="CambiarModo()"><img src="" id="iconoNoche" alt="">Modo noche</button>
+                </div>
+            </nav>
+    </header>
+
+<h1>Tenemos los mejores productos para tu mascota</h1>
+
+<div class="container">
+    <section class="section">
+        <h2>Perros</h2>
+        <div class="row">
+            <div class="product">
+                <img src="img/alimentocachorro.jpeg" alt="Perro 1">
+                <h3>Alimento para cachorro</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/bolsitas sanitarias.jpg" alt="Bolsitas sanitarias">
+                <h3>Bolsitas sanitarias</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/comedero.jpeg" alt="Comedero">
+                <h3>Comedero</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/huesitosmascan.jpg" alt="Huesitos Mascan">
+                <h3>Huesitos Mascan</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/setdepeines.jpg" alt="setdepeines">
+                <h3>Set de peines</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/correa1 (5).jpeg" alt="correa">
+                <h3>Correa</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <!-- Repite este bloque para cada producto de perros -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Gatos</h2>
+        <div class="row">
+            <div class="product">
+                <img src="img/whiskas.jpg" alt="Whiskas">
+                <h3>Whiskas</h3>
+                <p>Precio: $40</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/arenerogatos.jpg" alt="Arenero">
+                <h3>Arenero para gatos</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/comederogatos.jpeg" alt="comedero">
+                <h3>Comedero</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/piedritassanitarias.jpg" alt="piedritas">
+                <h3>Piedritas sanitarias</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/adultosatun.jpg" alt="atun">
+                <h3>Atún</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/jugueteparagatos.jpg" alt="jueguetes">
+                <h3>Jugete para gatos</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+
+
+            <!-- Repite este bloque para cada producto de gatos -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Peces</h2>
+        <div class="row">
+            <div class="product">
+                <img src="img/alimentopeces.jpg" alt="alimento">
+                <h3>Alimento para peces</h3>
+                <p>Precio: $20</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/accesoriospecera.jpg" alt="accesorio">
+                <h3>Accesorios para pecera</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/pecera.jpg" alt="pecera">
+                <h3>Pecera</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <!-- Repite este bloque para cada producto de peces -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Otras Mascotas</h2>
+        <div class="row">
+            <div class="product">
+                <img src="img/alimento hamster.jpg" alt="Alimento hamster">
+                <h3>Alimento para hamster</h3>
+                <p>Precio: $30</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/alimentoerizos.jpg" alt="Alimento Erizos">
+                <h3>Alimento para erizos</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product">
+                <img src="img/alimentohuron.jpeg" alt="Alimento huron">
+                <h3>Alimento para Huron</h3>
+                <p>Precio: $50</p>
+                <button class="btn-add-to-cart">Añadir al carrito</button>
+            </div>
+            <!-- Repite este bloque para cada otro tipo de mascota -->
+        </div>
+    </section>
+    <footer>
+        <section class="suscripcion">
+            <div>
+                <img src="./img/mensaje.png" alt="">
+                <h4>Suscribete para más novedades</h4>
+            </div>
+            <div>
+                <form action="/results" method="post" autocomplete="off" class="suscripcionRes">
+                    <input type="text" name="name" placeholder="Ingresa tu correo electrónico">
+                    <input type="submit" value="Suscribirme">
+
+                </form>
+            </div>
+        </section>
+
+        <section class="informacionPet">
+            <div>
+                <div class="informacionDetallada">
+                    <div>
+                        <img src="img/003-alfiler.png" alt="">
+                    </div>
+                    <div>
+                        <span>Localidad</span>
+                        <p>Calle falsa 123, Lanús</p>
+                    </div> 
+                </div>
+                <div class="informacionDetallada">
+                    <div>
+                        <img src="img/002-llamada-telefonica.png" alt="">
+                    </div>
+                    <div>
+                        <span>Telefono</span>
+                        <p>4256-4356</p>
+                    </div> 
+                </div>
+                <div class="informacionDetallada">
+                  <div>
+                    <img src="img/001-retroalimentacion.png" alt="">
+                    </div>
+                    <div>
+                    <span>Email</span>
+                    <p>Petpalsdoris@gmail.com</p>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="logoDos">
+                <img width="200" height="200" src="img/logo.png" alt="">
+            </div>
+        </section>
+
+        <section class="derechosReservados">
+            <div>
+                <p>Todos los derechos reservados © 2024 Petpals Doris</p>
+            </div>
+            <div>
+                <img width="30" height="30" src="img/facebook (1).png" alt="">
+                <img width="30" height="30"  src="img/instagram.png" alt="">
+                <img width="30" height="30"  src="img/twitter.png" alt="">
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

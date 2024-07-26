@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <body id="bod">
+            <header>
+                <div>
+                 <img width="200" height="200"src="img/logo.png" alt="">
+                </div>
+            </header>
+            <nav class="nav">
+                <div class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="carrito.html">Carrito</a>
+                    <a href="registro.html">Registrarse</a>
+                    <button id="botonModoNoche" onclick="CambiarModo()"><img src="" id="iconoNoche" alt="">Modo noche</button>
+                </div>
+            </nav>
+    </header>
+    <div id="inicio" class="header">
+        <div class="d-flex justify-content-center align-items-center flex-column text-area">
+          <h1 class="display-3">Registrate para obtener más beneficios</h1>
+          <fieldset>
+
+        <section id="registro">
+           <legend><h2>Nuevo usuario</h2></legend>
+           <form id="registrationForm">
+               <label for="nombre">Nombre</label>
+                <br>
+               <input type="text" id="ingresarnombre" name="ingresarnombre" required>
+                 <br>
+                <label for="password">Contraseña</label>
+                 <br>
+                  <input type="password" id="password" name="password" required>
+                  <br>
+                 <label for="email"> Ingresar Email</label>
+                 <br>
+                 <input type="email" id="email" name="email" required>
+                  <br>
+                 <label for="dob">Fecha de Nacimiento:</label>
+                 <br>
+                 <input type="date" id="dob" name="dob" required>
+               <br>
+        </fieldset>
+        <br>
+        <button class="btn btn-1">Registrarse</button>
+          <footer>
+            <section class="suscripcion">
+                <div>
+                    <img src="./img/mensaje.png" alt="">
+                    <h4>Suscribete para más novedades</h4>
+                </div>
+                <div>
+                    <form action="/results" method="post" autocomplete="off" class="suscripcionRes">
+                        <input type="text" name="name" placeholder="Ingresa tu correo electrónico">
+                        <input type="submit" value="Suscribirme">
+    
+                    </form>
+                </div>
+            </section>
+    
+            <section class="informacionPet">
+                <div>
+                    <div class="informacionDetallada">
+                        <div>
+                            <img src="img/003-alfiler.png" alt="">
+                        </div>
+                        <div>
+                            <span>Localidad</span>
+                            <p>Calle falsa 123, Lanús</p>
+                        </div> 
+                    </div>
+                    <div class="informacionDetallada">
+                        <div>
+                            <img src="img/002-llamada-telefonica.png" alt="">
+                        </div>
+                        <div>
+                            <span>Telefono</span>
+                            <p>4256-4356</p>
+                        </div> 
+                    </div>
+                    <div class="informacionDetallada">
+                      <div>
+                        <img src="img/001-retroalimentacion.png" alt="">
+                        </div>
+                        <div>
+                        <span>Email</span>
+                        <p>Petpalsdoris@gmail.com</p>
+                        </div> 
+                    </div>
+                </div>
+    
+                <div class="logoDos">
+                    <img width="200" height="200" src="img/logo.png" alt="">
+                </div>
+            </section>
+    
+            <section class="derechosReservados">
+                <div>
+                    <p>Todos los derechos reservados © 2024 Petpals Doris</p>
+                </div>
+                <div>
+                    <img width="30" height="30" src="img/facebook (1).png" alt="">
+                    <img width="30" height="30"  src="img/instagram.png" alt="">
+                    <img width="30" height="30"  src="img/twitter.png" alt="">
+                </div>
+            </section>
+        </footer>
+    </body>
+    </html>
+</body>
+</html>
